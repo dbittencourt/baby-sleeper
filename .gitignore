@@ -1,0 +1,28 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs, temporary files, and coverage output
+*.log
+*.tmp
+/coverage/
+/tarpaulin-report.html
+*.profraw
+*.profdata
+
+# Local assistant/tooling state
+.codex
+.claude
